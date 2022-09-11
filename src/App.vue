@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <P5Circles></P5Circles>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+import P5Circles from './components/P5Circles.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //HelloWorld,
+    P5Circles
   }
 }
 </script>
