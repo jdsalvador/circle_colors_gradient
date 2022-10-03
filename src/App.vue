@@ -1,16 +1,19 @@
 <template>
-  <P5Circles></P5Circles>
+  <!-- <P5Circles></P5Circles> -->
+  <PichiComponent></PichiComponent>
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
 import P5Circles from './components/P5Circles.vue'
+import PichiComponent from './components/Pichi.vue'
 
 export default {
   name: 'App',
   components: {
     //HelloWorld,
-    P5Circles
+    // P5Circles,
+    PichiComponent
   }
 }
 </script>
